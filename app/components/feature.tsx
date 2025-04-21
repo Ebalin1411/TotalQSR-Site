@@ -7,7 +7,7 @@ import Image from "next/image";
 export default function Feature() {
   return (
     <>
-      <div className="md:px-[50px] md:py-[100px] px-5 py-10  bg-Whitewaves bg-no-repeat bg-top md:bg-center bg-auto lg:bg-contain lg:bg-center">
+      <div className="md:px-[50px] md:py-[100px] px-5 py-10  bg-[url('/assets/images/white-waves.svg')] bg-no-repeat bg-top md:bg-center bg-auto lg:bg-contain lg:bg-center">
         <h1 className="text-4xl  md:text-6xl font-bold md:leading-snug text-center">
           Why manage with TotalQSR
         </h1>
