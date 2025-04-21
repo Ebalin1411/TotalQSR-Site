@@ -710,6 +710,11 @@
       padding-left: 5%;
     }
   }
+  .dark\:text-white {
+    @media (prefers-color-scheme: dark) {
+      color: var(--color-white);
+    }
+  }
 }
 :root {
   --background: #ffffff;
@@ -725,6 +730,24 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+.border-none {
+  border-style: none;
+}
+.bg-\[color1\] {
+  background-color: color1;
+}
+.bg-dark-blue-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(20 48 81 / var(--tw-bg-opacity));
+}
+.bg-dark-blue-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(12 39 70 / var(--tw-bg-opacity));
+}
+.bg-light-blue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(56 128 255 / var(--tw-bg-opacity));
 }
 @property --tw-rotate-x {
   syntax: "*";
