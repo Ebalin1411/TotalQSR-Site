@@ -385,6 +385,9 @@
   .h-\[290px\] {
     height: 290px;
   }
+  .w-1 {
+    width: calc(var(--spacing) * 1);
+  }
   .w-1\/2 {
     width: calc(1/2 * 100%);
   }
@@ -449,9 +452,6 @@
   }
   .bg-\[color1\] {
     background-color: color1;
-  }
-  .bg-blue-600 {
-    background-color: var(--color-blue-600);
   }
   .bg-\[url\(\'\/assets\/images\/background\.svg\'\)\] {
     background-image: url('/assets/images/background.svg');
@@ -556,9 +556,6 @@
   }
   .lowercase {
     text-transform: lowercase;
-  }
-  .uppercase {
-    text-transform: uppercase;
   }
   .italic {
     font-style: italic;
@@ -708,11 +705,6 @@
   .lg\:pl-\[5\%\] {
     @media (width >= 64rem) {
       padding-left: 5%;
-    }
-  }
-  .dark\:text-white {
-    @media (prefers-color-scheme: dark) {
-      color: var(--color-white);
     }
   }
 }
