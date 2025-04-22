@@ -1,4 +1,4 @@
-import Qsrimage from "../../../total-qsr/public/assets/images/qsr-image.svg";
+import Qsrimage from "../../public/assets/images/qsr-image.svg";
 import Image from "next/image";
 import { Icon } from "@iconify/react";
 
